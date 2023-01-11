@@ -1,0 +1,97 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validate-user-login;to-verify-standard-user-login",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "To verify standard user login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 379990700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the application is opened in a browser",
+            "match": {
+              "location": "stepDefinitions\\LoginSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1536341899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "valid user login to the application",
+            "match": {
+              "location": "stepDefinitions\\LoginSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3242615800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the home page is displayed",
+            "match": {
+              "location": "stepDefinitions\\LoginSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5047597499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 58867799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@Scenario,",
+            "line": 4
+          },
+          {
+            "name": "@UserLogin",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "validate-user-login",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Validate user login",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "features\\Login.feature"
+  }
+]
